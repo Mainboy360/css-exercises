@@ -24,3 +24,32 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  text-align: center;
+}
+
+.fruit-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.fruits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  gap: 53px;
+}
+
+.fruit-one,
+.fruit-two,
+.fruit-three,
+.fruit-four {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,19 @@
+img[src*="png"] {
+    width: 150px;
+    height: 100%;
+}
+
+.fruit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fruits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    gap: 70px;
+    text-align: center;
+}
